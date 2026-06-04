@@ -9,18 +9,16 @@ seaborn
 
 Syfte:
 
-En AI model som har redan tränats på en liten del av heart.csv datasetet ska gissa om en specifik person från datasetet drabbas av hjärtsjukdom
+En AI model som har redan tränats på en liten del av heart.csv datasetet ska gissa utifrån det användaren matar för information
 
 Tutorial:
 
 Kör programmet
 
-Välj genom terminalen vilken person som väljs av datasetet
+Tkinter App frågar efter värden som behövs för utvärderingen om patienten har eller är vid risk av hjärtsjukdom
 
 AIn analyserar och gissar utifran dess träning
 
-sedan inspektera svaret av modelen och vad facit dikterar är rätt.
-
 Resultat:
 
-0 = frisk och 1 = hjärtsjukdom
+Appen svarar om patienten är vid risk av hjärtsjukdom
