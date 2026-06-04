@@ -31,10 +31,10 @@ y_predict = model.predict(X_test) #Model.predict antar jag innebär att modellen
 print("Guessing Accuracy:", accuracy_score(y_test, y_predict)) # accuracy_score startar processen att jämföra y_test vilket = facit och y_predict som är modellens gissning
 cm = confusion_matrix(y_test, y_predict) #Confusion matrix jämför modellens gissningar och med hjälp av facit visar exakta fel och rätt som modellen fick. Tillsammans med accuracy score får vi bättre insikt av vad modellen fick rätt och vad den fick fel.
 print(cm)
-plt.scatter(X["age"], y) #Scatter gör prickar i en graf beroende på age och target
+#plt.scatter(X["age"], y) #Scatter gör prickar i en graf beroende på age och target
 plt.xlabel("Sjuk eller inte 0 = frisk, 1 = sjuk") #namn på x led
 plt.ylabel("Antal personer") #namn på y led
-plt.plot(X,y)
+#plt.plot(X,y)
 sns.countplot(x=y)
 plt.show()
 
